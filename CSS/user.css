@@ -1,0 +1,87 @@
+body{
+  background-color: #474B4F;
+}
+.simplebar-scrollbar::before {
+  background-color: red yellow;
+}
+.navbar {
+  position:fixed;
+  opacity: 70%;
+  overflow: hidden;
+  background-color: #474B4F;
+  z-index: 99999;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  background-color: #61862F;
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #86C232;
+  color:  white;
+}
+
+.navbar a.state {
+  background-color: #86C232;
+  color: white;
+}
+
+.a
+{
+  height:160px;
+  border:2px solid red;
+  background-color: #222629
+}
+.aleft
+{
+  float:left;
+  width:48%;
+  padding:2px;
+  height:150px;
+  border:2px solid red;
+  background-color: #222629
+}
+.aright
+{
+  float:right;
+  width:48%;
+  padding:2px;
+  height:150px;
+  border:2px solid red;
+  background-color: #222629
+}
+.aimg{
+  padding:2%;
+  width:130px;
+  height:130px;
+}
+.alr
+{
+  padding-right: 50px;
+  float: right;
+  position: relative;
+  color:blue;
+}
+
+.alr .p{
+  color: red;
+}
+#email
+{
+  color:#61862F;
+}
+input[type="submit"]
+{
+  background: transparent;
+  border:none;
+  color:#86C232;
+}

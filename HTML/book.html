@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/book.css">
+  </head>
+
+  <body>
+    <div class="book">
+      <input id="dt" type="datetime-local" />
+      </div>
+      <!--
+      <script>
+        var now = new Date();
+        var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+        console.log(now.toLocaleDateString('en-US', options));
+        //now.setMinutes(now.getMinutes() - now.getTimezoneOffset());
+        t=now.toISOString().slice(0,16);
+          document.getElementById('dt').min=t;
+
+        //var date = new Date();
+        var date = new Date();
+        date.setDate(date.getDate() + 7);
+        console.log(date);
+        var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+        console.log(date.toLocaleDateString('en-US', options));
+                tt=date.toISOString().slice(0,16);
+
+        document.getElementById('dt').max=tt;
+        </script>
+      -->
+        <script>
+          var now = new Date();
+          var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+          t=now.toISOString().slice(0,16);
+          document.getElementById('dt').min=t;
+
+          var date = new Date();
+          date.setDate(date.getDate() + 7);
+          var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+          tt=date.toISOString().slice(0,16);
+          document.getElementById('dt').max=tt;
+        </script>
+  </body>
+</html>
